@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:simple_app/screens/latestRate.dart';
+import 'package:simple_app/screens/myapp.dart';
 
 void main(){
   runApp(MaterialApp(
     title : "Exchange Rate",
     home: Scaffold(
       appBar: AppBar(
-        title: const Text("Exchange Rate"),
+        title: const Text("Container"),
       ),
-      body:const LatestRate(),
+      body:const Myapp(),
     ),
 
   ));
